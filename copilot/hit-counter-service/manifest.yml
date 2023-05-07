@@ -26,12 +26,11 @@ image:
 cpu: 1024
 # Amount of memory in MiB used by the task.
 memory: 2048
-
+count: autoscaling-demo/1
 # Connect your App Runner service to your environment's VPC.
 # network:
 #   vpc:
 #     placement: private
-
 
 # Enable tracing for the service.
 # observability:
